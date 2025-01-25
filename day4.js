@@ -12,33 +12,33 @@
 // const z=8; //refference error
 
 
-// //clousure
-//  function first(){
-//     let x=5;
-//     function second(){
-//         console.log(x);
+//clousure
+ function first(){
+    let x=5;
+    function second(){
+        console.log(x);
 
-//     }
-//     second()
-//  }
-//  first()
+    }
+    second()
+ }
+ first()
 
 
 
  //higher order function
 
- function x(){
-    console.log("hello");
+//  function x(){
+//     console.log("hello");
     
- }
- function y(x){
-    x();
+//  }
+//  function y(x){
+//     x();
 
- }
+//  }
 
 
 
- const radius =[3,1,2,4];
- const calculateArea = F
+//  const radius =[3,1,2,4];
+//  const calculateArea = hgdh
 
   
