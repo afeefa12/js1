@@ -13,32 +13,67 @@
 
 
 //clousure
- function first(){
-    let x=5;
-    function second(){
-        console.log(x);
+//  function first(){
+//     let x=5;
+//     function second(){
+//         console.log(x);
 
-    }
-    second()
- }
- first()
+//     }
+//     second()
+//  }
+//  first()
 
 
 
- //higher order function
+//  higher order function
 
 //  function x(){
 //     console.log("hello");
     
 //  }
-//  function y(x){
-//     x();
+//  function y(){
+//     console.log("hhj");
+    
 
 //  }
+// y(x);
+
+
+// //pure function
+
+// function add(a,b){
+//     return a+b;
+
+// }
+// console.log(add(2,3));
+// console.log(add(2,3));
+
+
+// const person= {
+//    firstname: function (city,country) {
+//       return this.firstname + " " + this.lastname + "," + city +" ,"+ country;
+//    }
+// }
+// const person1 = {
+//    firstName:"John",
+//    lastName: "Doe"
+//  }
+// console.log(person.fullname.call(person1,"oslo","norrway"));
 
 
 
-//  const radius =[3,1,2,4];
-//  const calculateArea = hgdh
+//first class function
 
-  
+// const sayHello= function(){
+//    return "Hello";
+
+// };
+// console.log(sayHello());
+   
+
+ function executefunc(fn){
+   
+
+   console.log(fn());
+}
+executefunc(sayHello);
